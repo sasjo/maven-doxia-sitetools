@@ -49,6 +49,20 @@ under the License.
     </developer>
   </developers>
 
+  <distributionManagement>
+    <repository>
+      <id>remote-repository</id>
+      <name>Extenda Releases</name>
+      <url>http://repository/nexus/content/repositories/releases</url>
+    </repository>
+    <snapshotRepository>
+      <id>remote-repository</id>
+      <name>Extenda Snapshots</name>
+      <url>http://repository/nexus/content/repositories/snapshots</url>
+      <uniqueVersion>false</uniqueVersion>
+    </snapshotRepository>
+  </distributionManagement>
+
   <dependencies>
     <!-- doxia -->
     <dependency>
