@@ -29,6 +29,7 @@ under the License.
     <relativePath>../pom.xml</relativePath>
   </parent>
 
+  <groupId>se.extenda.maven.doxia</groupId>
   <artifactId>doxia-doc-renderer</artifactId>
 
   <name>Document Renderer</name>
@@ -90,6 +91,13 @@ under the License.
       <groupId>org.apache.maven.doxia</groupId>
       <artifactId>doxia-module-xhtml</artifactId>
     </dependency>
+    
+    
+    <dependency>
+      <groupId>org.apache.avalon.framework</groupId>
+      <artifactId>avalon-framework-impl</artifactId>
+      <version>4.3.1</version>
+    </dependency>    
 
     <!-- plexus -->
     <dependency>
