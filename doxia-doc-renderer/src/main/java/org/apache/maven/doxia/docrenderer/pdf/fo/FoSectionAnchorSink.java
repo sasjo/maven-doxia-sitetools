@@ -21,7 +21,7 @@ import org.apache.maven.doxia.sink.SinkEventAttributes;
  * @author Samuel Sjoberg
  */
 public class FoSectionAnchorSink
-    extends FoAggregateSink
+    extends FoHighlighterSink
 {
 
     /** The document model to be used by this sink. */
